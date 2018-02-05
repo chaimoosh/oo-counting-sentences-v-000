@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     #binding.pry
-    self.scan
+    self.scan/\w[.]|\w[?]|\w[!]/
   end
 end
